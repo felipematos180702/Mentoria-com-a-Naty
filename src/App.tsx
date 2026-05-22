@@ -60,7 +60,7 @@ export default function App() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="mb-8 md:mb-8 mt-[140px] md:mt-0 relative"
+            className="mb-8 md:mb-8 mt-[141px] md:mt-0 relative"
           >
             <h1 className="text-[27px] md:text-7xl font-serif text-white mb-1 md:mb-2 leading-tight">
               Aprenda um novo jeito de
