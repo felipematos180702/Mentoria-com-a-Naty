@@ -106,7 +106,7 @@ export default function App() {
                   src="https://drive.google.com/thumbnail?id=1GWOXt-X8cPXRU3r2vNc0v_4ztSiV7jYe&sz=w2000" 
                   alt="Naty - Mentora" 
                   referrerPolicy="no-referrer"
-                  className="relative rounded-2xl w-[283px] h-[349px] md:w-full md:h-auto mx-auto object-cover shadow-2xl grayscale-[0.2] group-hover:grayscale-0 transition-all duration-700"
+                  className="relative rounded-2xl w-[283px] h-[349px] mt-[-1px] md:mt-0 md:w-full md:h-auto mx-auto object-cover shadow-2xl grayscale-[0.2] group-hover:grayscale-0 transition-all duration-700"
                 />
               </div>
             </motion.div>
@@ -321,7 +321,7 @@ export default function App() {
 
           <motion.p 
             {...fadeIn}
-            className="max-w-3xl mx-auto text-gray-400 text-[12px] md:text-[22px] mb-8 md:mb-12"
+            className="max-w-3xl mx-auto text-gray-400 text-[13px] md:text-[22px] mb-8 md:mb-12"
           >
             A mentoria não é para todo mundo, eu faço uma seleção minuciosa, analiso se você realmente está pronta para ter meu acompanhamento. <br className="hidden md:block" />
             Por isso, preencha sua aplicação.
