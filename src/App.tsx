@@ -43,7 +43,7 @@ export default function App() {
             src="https://drive.google.com/thumbnail?id=1-U2oTuSOYuZQHREiH9VZTyy3XvES1tmC&sz=w2000" 
             alt="Naty background" 
             referrerPolicy="no-referrer"
-            className="w-full h-full object-cover opacity-30 grayscale-[0.5] scale-110"
+            className="w-full h-full object-cover opacity-30 grayscale-[0.5] scale-110 md:scale-100 md:object-top"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-[#110f0d]/80 via-transparent to-[#110f0d]" />
         </div>
