@@ -51,7 +51,7 @@ export default function App() {
         <div className="container mx-auto px-6 relative z-10 text-center flex flex-col h-full pt-[33.35px] md:pt-0 md:justify-center items-center w-full max-w-[360px] md:max-w-none">
           <motion.p 
             {...fadeIn}
-            className="text-[#c09473] tracking-[0.3em] text-[11px] md:text-sm font-medium mb-[21px] pb-[49px] h-[37px] md:pb-0 md:mb-6 md:h-auto uppercase"
+            className="text-[#c09473] tracking-[0.3em] text-[13px] md:text-sm font-medium mt-0 pt-[17px] md:pt-0 mb-[21px] pb-[49px] h-[37px] md:h-auto uppercase"
           >
             Mentoria com a Naty
           </motion.p>
@@ -62,10 +62,10 @@ export default function App() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="mb-8 md:mb-8 mt-[140px] md:mt-0 relative"
           >
-            <h1 className="text-[26px] md:text-7xl font-serif text-white mb-1 md:mb-2 leading-tight">
+            <h1 className="text-[27px] md:text-7xl font-serif text-white mb-[3px] md:mb-2 ml-[-3px] mr-[-3px] md:mx-0 leading-tight">
               Aprenda um novo jeito de
             </h1>
-            <h2 className="text-[28px] md:text-7xl font-serif text-[#c09473] italic">
+            <h2 className="text-[29px] md:text-7xl font-serif text-[#c09473] italic leading-[36px] md:leading-tight ml-[-5px] mr-[-7px] md:mx-0">
               trabalhar com confeitaria
             </h2>
           </motion.div>
@@ -73,7 +73,7 @@ export default function App() {
           <motion.p 
             {...fadeIn}
             transition={{ duration: 0.6, delay: 0.4 }}
-            className="max-w-2xl mx-auto text-gray-400 text-sm md:text-[21px] leading-[22.75px] md:leading-[32.5px] mt-[80px] mb-8 md:mb-10 text-center"
+            className="max-w-2xl mx-auto text-gray-400 text-[16px] md:text-[21px] leading-[22.75px] md:leading-[32.5px] mt-[80px] mb-8 md:mb-10 text-center"
           >
             Ao invés de continuar sozinha e perder tempo, eu vou te direcionar e cobrar suas ações em cada etapa durante os próximos 6 meses.
           </motion.p>
@@ -84,7 +84,7 @@ export default function App() {
             rel="noopener noreferrer"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="inline-flex items-center gap-3 bg-[#c09473] text-[#110f0d] px-8 py-3 md:px-10 md:py-5 rounded-full font-bold text-sm md:text-lg transition-colors hover:bg-[#d4a883] mt-[20px] md:mt-4 shadow-xl"
+            className="inline-flex items-center gap-3 bg-[#c09473] text-[#110f0d] px-8 py-3 md:px-10 md:py-5 rounded-full font-bold text-sm md:text-lg transition-colors hover:bg-[#d4a883] mt-[7px] md:mt-4 shadow-xl"
           >
             Quero me candidatar <ArrowRight size={20} />
           </motion.a>

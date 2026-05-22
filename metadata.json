@@ -2,5 +2,5 @@
   "name": "Mentoria com a Naty",
   "description": "Landing page para mentoria profissional de confeitaria",
   "requestFramePermissions": [],
-  "majorCapabilities": []
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
