@@ -43,7 +43,7 @@ export default function App() {
             src="https://drive.google.com/thumbnail?id=1-U2oTuSOYuZQHREiH9VZTyy3XvES1tmC&sz=w2000" 
             alt="Naty background" 
             referrerPolicy="no-referrer"
-            className="w-full h-full object-cover opacity-30 grayscale-[0.5]"
+            className="w-full h-full object-cover opacity-30 grayscale-[0.5] scale-110"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-[#110f0d]/80 via-transparent to-[#110f0d]" />
         </div>
@@ -60,7 +60,7 @@ export default function App() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="mb-8 md:mb-8 mt-[141px] md:mt-0 relative"
+            className="mb-8 md:mb-8 mt-[220px] md:mt-0 relative"
           >
             <h1 className="text-[27px] md:text-7xl font-serif text-white mb-1 md:mb-2 leading-tight">
               Aprenda um novo jeito de
@@ -73,7 +73,7 @@ export default function App() {
           <motion.p 
             {...fadeIn}
             transition={{ duration: 0.6, delay: 0.4 }}
-            className="max-w-2xl mx-auto text-gray-400 text-[16px] md:text-[21px] leading-[22.75px] md:leading-[32.5px] mt-[80px] mb-8 md:mb-10 text-center"
+            className="max-w-2xl mx-auto text-gray-400 text-[16px] md:text-[21px] leading-[22.75px] md:leading-[32.5px] mt-[100px] mb-8 md:mb-10 text-center"
           >
             Ao invés de continuar sozinha e perder tempo, eu vou te direcionar e cobrar suas ações em cada etapa durante os próximos 6 meses.
           </motion.p>
@@ -84,7 +84,7 @@ export default function App() {
             rel="noopener noreferrer"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="inline-flex items-center gap-3 bg-[#c09473] text-[#110f0d] px-8 py-3 pt-[10px] md:px-10 md:py-5 md:pt-5 rounded-full font-bold text-sm md:text-lg transition-colors hover:bg-[#d4a883] mt-[12px] md:mt-4 shadow-xl"
+            className="inline-flex items-center gap-3 bg-[#c09473] text-[#110f0d] px-8 py-3 pt-[10px] md:px-10 md:py-5 md:pt-5 rounded-full font-bold text-sm md:text-lg transition-colors hover:bg-[#d4a883] mt-[24px] md:mt-4 shadow-xl"
           >
             Quero me candidatar <ArrowRight size={20} />
           </motion.a>
