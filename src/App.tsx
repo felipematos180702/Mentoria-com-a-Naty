@@ -321,7 +321,7 @@ export default function App() {
 
           <motion.p 
             {...fadeIn}
-            className="max-w-3xl mx-auto text-gray-400 text-[11px] md:text-[22px] mb-8 md:mb-12"
+            className="max-w-3xl mx-auto text-gray-400 text-[12px] md:text-[22px] mb-8 md:mb-12"
           >
             A mentoria não é para todo mundo, eu faço uma seleção minuciosa, analiso se você realmente está pronta para ter meu acompanhamento. <br className="hidden md:block" />
             Por isso, preencha sua aplicação.
@@ -333,7 +333,7 @@ export default function App() {
             rel="noopener noreferrer"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="inline-flex items-center gap-3 bg-[#c09473] text-[#110f0d] px-8 py-4 md:px-10 md:py-5 rounded-full font-bold text-base md:text-lg transition-colors hover:bg-[#d4a883]"
+            className="inline-flex items-center gap-3 bg-[#c09473] text-[#110f0d] px-8 py-4 md:px-10 md:py-5 rounded-full font-bold text-[14px] md:text-lg transition-colors hover:bg-[#d4a883]"
           >
             Quero me candidatar <ArrowRight size={20} />
           </motion.a>
