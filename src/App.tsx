@@ -106,7 +106,7 @@ export default function App() {
                   src="https://drive.google.com/thumbnail?id=1GWOXt-X8cPXRU3r2vNc0v_4ztSiV7jYe&sz=w2000" 
                   alt="Naty - Mentora" 
                   referrerPolicy="no-referrer"
-                  className="relative rounded-2xl w-[283px] h-[350px] md:w-full md:h-auto mx-auto object-cover shadow-2xl grayscale-[0.2] group-hover:grayscale-0 transition-all duration-700"
+                  className="relative rounded-2xl w-[283px] h-[349px] md:w-full md:h-auto mx-auto object-cover shadow-2xl grayscale-[0.2] group-hover:grayscale-0 transition-all duration-700"
                 />
               </div>
             </motion.div>
