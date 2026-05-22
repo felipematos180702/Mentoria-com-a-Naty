@@ -37,7 +37,7 @@ export default function App() {
   return (
     <div className="min-h-screen bg-[#110f0d] text-white font-sans selection:bg-[#c09473] selection:text-white">
       {/* Hero Section */}
-      <section id="hero" className="relative h-screen flex items-center justify-center overflow-hidden">
+      <section id="hero" className="relative min-h-[100dvh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img 
             src="https://drive.google.com/thumbnail?id=1-U2oTuSOYuZQHREiH9VZTyy3XvES1tmC&sz=w2000" 
@@ -48,10 +48,10 @@ export default function App() {
           <div className="absolute inset-0 bg-gradient-to-b from-[#110f0d]/80 via-transparent to-[#110f0d]" />
         </div>
 
-        <div className="container mx-auto px-6 relative z-10 text-center flex flex-col h-full pt-[33.35px] md:pt-0 md:justify-center items-center w-full max-w-[360px] md:max-w-none">
+        <div className="container mx-auto px-6 relative z-10 text-center flex flex-col h-full pt-[4vh] md:pt-0 md:justify-center items-center w-full max-w-[360px] md:max-w-none">
           <motion.p 
             {...fadeIn}
-            className="text-[#c09473] tracking-[0.3em] text-[13px] md:text-sm font-medium mt-[10px] md:mt-0 mb-[21px] pb-[49px] h-[37px] md:pb-0 md:mb-6 md:h-auto uppercase"
+            className="text-[#c09473] tracking-[0.3em] text-[13px] md:text-sm font-medium mt-[1vh] md:mt-0 mb-[2vh] md:mb-6 pb-[49px] h-[37px] md:h-auto uppercase"
           >
             Mentoria com a Naty
           </motion.p>
@@ -60,7 +60,7 @@ export default function App() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="mb-8 md:mb-8 mt-[220px] md:mt-0 relative"
+            className="mb-8 md:mb-8 mt-[28vh] md:mt-0 relative"
           >
             <h1 className="text-[27px] md:text-7xl font-serif text-white mb-1 md:mb-2 leading-tight">
               Aprenda um novo jeito de
@@ -73,7 +73,7 @@ export default function App() {
           <motion.p 
             {...fadeIn}
             transition={{ duration: 0.6, delay: 0.4 }}
-            className="max-w-2xl mx-auto text-gray-400 text-[16px] md:text-[21px] leading-[22.75px] md:leading-[32.5px] mt-[100px] mb-8 md:mb-10 text-center"
+            className="max-w-2xl mx-auto text-gray-400 text-[16px] md:text-[21px] leading-[22.75px] md:leading-[32.5px] mt-[12vh] mb-8 md:mb-10 text-center"
           >
             Ao invés de continuar sozinha e perder tempo, eu vou te direcionar e cobrar suas ações em cada etapa durante os próximos 6 meses.
           </motion.p>
@@ -84,7 +84,7 @@ export default function App() {
             rel="noopener noreferrer"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="inline-flex items-center gap-3 bg-[#c09473] text-[#110f0d] px-8 py-3 pt-[10px] md:px-10 md:py-5 md:pt-5 rounded-full font-bold text-sm md:text-lg transition-colors hover:bg-[#d4a883] mt-[24px] md:mt-4 shadow-xl"
+            className="inline-flex items-center gap-3 bg-[#c09473] text-[#110f0d] px-8 py-3 pt-[10px] md:px-10 md:py-5 md:pt-5 rounded-full font-bold text-sm md:text-lg transition-colors hover:bg-[#d4a883] mt-[3vh] md:mt-4 shadow-xl"
           >
             Quero me candidatar <ArrowRight size={20} />
           </motion.a>
