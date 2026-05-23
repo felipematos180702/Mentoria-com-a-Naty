@@ -99,7 +99,7 @@ export default function App() {
               {...fadeIn}
               className="lg:w-1/2"
             >
-              <p className="text-[#c09473] tracking-widest text-[13px] font-bold uppercase mb-6 text-center md:hidden">Quem é Naty</p>
+              <p className="text-[#c09473] tracking-widest text-[13px] font-bold uppercase mb-6 text-center md:hidden">QUEM É A NATY</p>
               <div className="relative group">
                 <div className="absolute -inset-4 bg-[#c09473]/10 rounded-2xl blur-2xl group-hover:bg-[#c09473]/20 transition-all duration-500" />
                 <img 
@@ -116,7 +116,7 @@ export default function App() {
               className="lg:w-1/2 space-y-8 mt-[-13px] md:mt-0 leading-[24px] md:leading-normal mb-1 md:mb-0"
             >
               <div>
-                <p className="hidden md:block text-[#c09473] tracking-widest text-xs font-bold uppercase mb-4">Quem é Naty</p>
+                <p className="hidden md:block text-[#c09473] tracking-widest text-xs font-bold uppercase mb-4">QUEM É A NATY</p>
                 <h2 className="text-[19px] md:text-5xl font-serif leading-tight">
                   O método que eu usei para construir a Doces da Naty pode ser aplicado no seu negócio
                 </h2>
