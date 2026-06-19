@@ -165,7 +165,7 @@ export default function App() {
               { 
                 icon: <Target className="text-[#c09473] w-4 h-4 md:w-5 md:h-5" />, 
                 title: "Serei sua “chefe” nos próximos 6 meses", 
-                desc: "Da mesma forma que irei te ensinar o que e como fazer, também irei cobrar suas as ações, afinal, se você não colocar a mão na massa, não verá resultados.",
+                desc: "Da mesma forma que irei te ensinar o que e como fazer, também irei cobrar suas ações, afinal, se você não colocar a mão na massa, não verá resultados.",
                 titleClass: "text-[13px] md:text-[16px]",
                 descClass: "text-[11px]"
               },
